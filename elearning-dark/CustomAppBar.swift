@@ -11,7 +11,7 @@ struct CustomAppBar: View {
     var body: some View {
         HStack{
             Text(appName)
-                .font(.system(size: 50))
+                .font(.system(size: 30))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             Spacer()
             Image("avatar")
